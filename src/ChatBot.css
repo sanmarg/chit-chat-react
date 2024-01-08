@@ -1,0 +1,159 @@
+.fixture{
+    position: fixed; 
+    right: 2.5rem; 
+    bottom: 2.5rem; 
+  }
+  .main{
+    display: flex; 
+    padding: 1rem; 
+    flex-direction: column; 
+    border-radius: 0.5rem; 
+    width: 20rem; 
+    height: 24rem; 
+    background-color: #ffffff; 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+  }
+  .main1{
+    display: flex; 
+    padding: 0.5rem; 
+    margin-bottom: 1rem; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem; 
+    font-weight: 700; 
+    color: #000000; 
+  }
+  .flexture{
+    display: flex; 
+    align-items: center; 
+  }
+  .image{
+    object-fit: cover; 
+    margin-right: 0.5rem; 
+    border-radius: 9999px; 
+    width: 1.5rem; 
+    height: 1.5rem; 
+  }
+  .mainmsg{
+    overflow-y: auto; 
+    margin-bottom: 1rem; 
+    flex: 1 1 0%; 
+  }
+  .messageContainer {
+    padding: 0.5rem; 
+    margin-top: 0.5rem; 
+    margin-bottom: 0.5rem; 
+  }
+  .btmContainer{
+    display: flex; 
+    align-items: center; 
+  }
+  .customClass {
+    width: 1.5rem; 
+    height: 1.5rem; 
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  .msgText{
+    color: black;
+    background-color: #D1D5DB;
+    border-radius: 0.375rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 0.5rem; 
+  }
+  .userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .userLabel {
+    color: #4A5568;
+    font-size: 0.875rem; 
+    margin-bottom: 0.25rem;
+  }
+  .userMessage {
+    background-color: #D1D5DB;
+    padding-right: 1rem;
+    padding: 0.5rem; 
+    border-radius: 0.375rem;
+    color: black;
+  }
+  .botTypingText {
+    color: #4A5568;
+  }
+  .flexContainer {
+    display: flex;
+    overflow-y: auto;
+  }
+  .botImage {
+    width: 24px; 
+    height: 24px; 
+    border-radius: 50%; 
+    margin-right: 0.5rem;
+  }
+  .suggestionContainer {
+    background-color: #D1D5DB;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+  }
+  .suggestionText {
+    margin-top: 0.5rem;
+  }
+  .suggestionButton {
+    background-color: white; 
+    color: black;
+    border-radius: 0.375rem; 
+    padding: 0.25rem 0.5rem;
+    margin-top: 0.5rem; 
+    cursor: pointer;
+  }
+  .suggestionButton:hover {
+    background-color: #4A5568;
+  }
+  .inputContainer {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .textInput {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+  }
+  .sendMessageButton {
+    padding: 0.25rem 0.5rem;
+    background-color: #3b82f6; 
+    border-radius: 0.375rem; 
+    color: white; 
+    cursor: pointer;
+  }
+  .sendMessageButton:hover {
+    background-color: #2563eb;
+  }
+  .sendMessageButton:active {
+    background-color: #1d4ed8; 
+  }
+  .sendMessageButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .chatIconContainer {
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer; 
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  }
+  .chatIconImage {
+    width: 100%;
+    height: 100%; 
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+  

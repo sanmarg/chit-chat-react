@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "ES6",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"]
+}

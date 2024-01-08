@@ -1,0 +1,33 @@
+{
+  "name": "chit-chat-react",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/ChatBot.js",
+  "types": "dist/ChatBot.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && ncp src/ChatBot.css dist/ChatBot.css"
+  },
+  "keywords": [
+    "Chatbot Component"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "files": [
+    "./dist"
+  ],
+  "devDependencies": {
+    "ncp": "^2.0.0"
+  }
+}
