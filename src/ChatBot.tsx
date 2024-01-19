@@ -55,10 +55,10 @@ const ChatBot: React.FC<ChatBotProps> = ({
 
   async function generateAnswares(userQuestion: string) {
     try {
-      let chatAPIUrl = `https://chit-chatbot.up.railway.app/api/v1/QnARetrieval?key=${apiKey}`;
+      let chatAPIUrl = `https://chit-chat.tech/api/v1/QnARetrieval?key=${apiKey}`;
 
       if (switchAPI) {
-        chatAPIUrl = `https://chit-chat.tech/api/v1/organization/generateCompletion?key=${apiKey}`;
+        chatAPIUrl = `https://localhost:8000/api/v1/organization/generateCompletion?key=${apiKey}`;
       }
 
       const payloadBody = {
