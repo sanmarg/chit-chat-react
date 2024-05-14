@@ -6,15 +6,32 @@ labels: ''
 assignees: ''
 
 ---
+### Feature Request Template
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+#### Feature Description:
+Describe the proposed feature in clear and concise terms, outlining its intended functionality and benefits.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+#### Use Case:
+Provide a brief description of the specific scenario or use case where the feature would be useful, helping us understand its importance.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+#### Benefits:
+Explain the potential benefits or value the feature would bring to users or the project as a whole.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+#### Implementation Suggestions:
+Share any ideas or suggestions for how the feature could be implemented or integrated into the existing project infrastructure.
+
+#### Key Features:
+* User-Friendly Interface
+* Structured Format
+* Customizable Fields
+* Integration with Issue Tracker
+* Feedback Mechanism
+
+#### Expected Benefits:
+* Clearer Communication
+* Improved Prioritization
+* Enhanced User Satisfaction
+
+#### additional information :
+
+* additional information related to your new feature.
