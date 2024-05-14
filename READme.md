@@ -6,6 +6,11 @@ Easily integrate your chatbot into your website within a few minutes.
 
 Chit-Chat allows you to quickly integrate a chatbot into your application by simply uploading a configuration file. This bot uses the power of OpenAI's API to generate responses. By using our provided CDN and API endpoint, you can get started in just a few minutes.
 
+
+## Project Demo
+[![Alt text](https://img.youtube.com/vi/MnmEB7ZGAXU/0.jpg)](https://www.youtube.com/watch?v=MnmEB7ZGAXU)
+
+
 ## Installation
 
 ### CDN Integration
